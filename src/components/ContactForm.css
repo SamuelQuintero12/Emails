@@ -1,0 +1,84 @@
+.contact-form-container {
+    background-color: #76fae8;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #1f2937;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #0066ff;
+    border-radius: 6px;
+    background-color: #000000;
+    outline: none;
+  }
+  
+  .input-error {
+    border-color: rgb(241, 14, 14);
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 4px;
+  }
+  
+  .success-message, .error-message {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .success-message {
+    background-color: #49775f;
+    color: #22ca9a;
+  }
+  
+  .error-message {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+  
+  .submit-button {
+    background-color: #0f3b7c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #000000;
+  }
+  
+  .form-footer {
+    text-align: center;
+    margin-top: 15px;
+    color: #0055ff98;
+    font-size: 14px;
+  }
+  
